@@ -3,7 +3,7 @@
 // primitive data types are immutabe
 let word = 'muneb';
 
- word[0]='c' //gives error: strings are immutable
+ word[0]='c' //doesn't change the string: strings are immutable
 
 //primitive data types are compared by their values
 
