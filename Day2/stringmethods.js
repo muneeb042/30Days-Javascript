@@ -60,3 +60,31 @@ console.log(string.concat(' string'));
 
 let s = '30';
 console.log(s.concat('days ','of ','coding ', 'with ', 'javascript.')); 
+
+
+//startsWith()-- takes a substring as an argument and checks if the string starts with specified substring
+//returns a boolean value
+let words = 'This is a javascript tutorial';
+console.log(words.startsWith('This'));
+
+//endsWith() takes a substring as argument and checks if the string ends with this substring
+console.log('tutorial');
+
+//search()-- takes a substring as an argument and returns its first index of the match
+let sentence = 'i am coding in javascript. 30 days javascript tutorial. javascript is a cool programming language';
+console.log(sentence.search('coding'));
+
+//match()-- takes a substring or regular expression pattern as an argument and it returns an array if there
+//match . if not it returns null
+//regex starts with / and end with / 
+let pattern = /coding/
+let pattern1 = /coding/gi // g means to search in whole text , i means case sensitive
+
+console.log(sentence.match(pattern));
+console.log(sentence.match(pattern1));
+
+let regex = /\d+/g // \d means a digit, + means one or more, g means global i.e, search in the whole sentence
+console.log(sentence.match(regex));
+
+//repeat()-- takes a string and returns the repeated version of the string
+console.log(string.repeat(10));
