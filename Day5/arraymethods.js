@@ -50,6 +50,41 @@ console.log(thirdarray.join());
 // join(' ')-- joins array elements with space
 console.log(thirdarray.join(' '));
 
+//splice()--takes three parameters starting position,number of times to be removed and number of items to be added
+const arr3 = [1,2,3,4,5,6];
+arr3.splice();
+console.log(arr3); //removes all items
+
+const arr4 = [1,2,3,4,5,6];
+arr3.splice(0,1); // removes the first item
+
+
+const arr5 =[1,2,3,4,5,6];
+arr4.splice(3,3,7,8,9); // removes three items and replace three items
+//[1,2,3,7,8,9]
+
+
+//push: adding an element in the end of existing array
+//pop:removes an element at the end of array
+arr5.push(8);
+arr5.pop();
+
+//shift: removing an element from the begining
+arr5.shift();
+
+//unshift()--adding an element from the begining
+arr5.unshift(9);
+
+//reversing an array
+arr5.reverse(); 
+
+//sorting an array
+arr5.sort();//sort takes a call back function
+
+//Array of arrays
+const arrayOfArrays = [[1,2,3],[4,5,6],[7,8,9]];
+console.log(arrayOfArrays[0]);
+
 
 
 
