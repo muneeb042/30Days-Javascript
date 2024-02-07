@@ -25,3 +25,13 @@ const ar = ['muneeb', 24,true,{country : 'India', city : 'Anantnag'},
 { skills : ['html','css','javascript']}];
 console.log(ar);
 
+
+//creating an arary using split 
+let js = 'javascript';
+const charInJavascript = js.split('');
+console.log(charInJavascript);
+
+let companies = 'facebook, google, microsoft, apple, ibm, oracle, amazon';
+const com = companies.split(',');
+console.log(com);
+
