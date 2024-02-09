@@ -38,7 +38,18 @@ const numm = [2,3,4,5,6,7,8,9,0];
 for(const n of numm){console.log(n);}
 
 for(const n of numm){console.log(n*n);}
+
 let summ = 0;
 for(const n of numm){
-    sum+=n;
+    summ+=n;
+}
+//break statement is used to interrupt the loop
+for( let i = 0;i<=5;i++){
+    if(i==3)break;
+    console.log(i);
+}
+//continue statement is used to skip an iteration of a loop
+for( let i = 0;i<=5;i++){
+    if(i==3)continue;
+    console.log(i);
 }
