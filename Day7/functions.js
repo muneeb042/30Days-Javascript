@@ -59,3 +59,20 @@ function sumArray(arr){
 }
 const numm = [1,2,3,4,5,6,7,8];
 console.log(sumArray(numm));
+
+//function with many parameters
+/* function functionName (parm1, parm2, ...){
+    function code goes here
+}
+*/
+
+//function with unlimited number of parameters
+/* sometimes we don't know the number of arguments the user is goingto pass */
+
+//unlimited number of parameters in the regular function
+ function sumAllNums(){
+    console.log(arguments);
+ }
+ sumAllNums(1,2,3,4);
+ //arguments in the function are accessed from arguments object inside the function
+ 
